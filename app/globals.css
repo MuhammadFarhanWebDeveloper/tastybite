@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --focus-bg:#312E81;
+  --highlighted-color:#f59e0b;
+}
+
+.nav-link {
+  @apply after:absolute after:-bottom-1 after:content-[''] after:w-0 after:right-0 after:h-0.5 after:transition-all  after:bg-red-500 hover:after:w-full after:duration-300;
+}
