@@ -13,7 +13,7 @@ function HotDessertCard({
   return (
     <div className="shadow-lg p-2 gap-2 rounded-lg flex bg-white hover:shadow-lg items-center  transition-all duration-300">
       <div className="w-fit  overflow-hidden rounded-lg">
-        <Image src={image} alt="Dessert" width={100} height={100} className="" />
+        <Image src={image} alt="Dessert" width={100} height={100} className="w-[100px] h-[100px] object-cover" />
       </div>
       <div>
         <h1 className="text-xl font-semibold text-green-950 ">{title}</h1>

@@ -38,7 +38,7 @@ export default function ReviewCard({ name, image }: ReviewCardProps) {
         <p className="font-semibold text-gray-700">Fullstack Web Developer</p>
       </div>
       <div className="lg:w-[30%]">
-        <Image src={image} alt={name} width={250} height={250} className="rounded-full" />
+        <Image src={image} alt={name} width={250} height={250} className="rounded-full select-none" />
       </div>
     </div>
   );
