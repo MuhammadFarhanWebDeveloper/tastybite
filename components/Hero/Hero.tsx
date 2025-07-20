@@ -124,7 +124,7 @@ export default function Hero() {
           >
             <BurgerPart
               name="Top Bun"
-              src="/images/burger/top-bun 1.png"
+              src="/images/burger/top-bun-1.png"
               top={0}
               zIndex={5}
             />
