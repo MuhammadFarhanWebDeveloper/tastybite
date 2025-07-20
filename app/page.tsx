@@ -1,4 +1,3 @@
-import Featured from "@/components/FeaturedProduct/Featured";
 import Hero from "@/components/Hero/Hero";
 import HotDesserts from "@/components/Hot_Desserts/HotDesserts";
 import OrderNow from "@/components/OrderNow/OrderNow";
